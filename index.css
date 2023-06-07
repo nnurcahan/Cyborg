@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --pink: #e75e8d;
+}
+
+body {
+    background-color: #1f2122;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    padding: 30px 0;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a {
+    color: #666;
+}
+
+header nav ul li a:hover {
+    color: var(--pink);
+}
+
+input[type=search] {
+    background-color: #27292a;
+    height: 46px;
+    border-radius: 23px;
+    border: none;
+    color: #666;
+    font-size: 14px;
+    padding: 0px 15px 0px 45px;
+}
+
+#profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #27292a;
+    padding: 8px 10px 8px 20px;
+    border-radius: 23px;
+}
+
+#profile:hover {
+    background-color: var(--pink);
+    color: #fff;
+}
+
+#profile img {
+    border-radius: 50%;
+    margin: 0 0 0 5px;
+}
+
+main>div {
+    margin-top: 110px;
+    background-color: rgb(39, 41, 42);
+    padding: 60px;
+    border-radius: 23px;
+}
+
+#div1 {
+    background: url('../img/banner-bg.jpg') center/cover;
+    min-height: 380px;
+    border-radius: 23px;
+    padding: 80px 60px;
+}
+
+#div1 h6 {
+    font-size: 20px;
+}
+
+#div1 h1 {
+    text-transform: uppercase;
+    max-width: 500px;
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+#div2 {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #1f2122;
+    border-radius: 23px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#div2 h2 {
+    color: var(--pink);
+    text-transform: capitalize;
+    font-size: 34px;
+    align-self: flex-start;
+}
+
+#div2 article {
+    background-color: #27292a;
+    padding: 30px 15px;
+    border-radius: 23px;
+    margin-bottom: 30px;
+}
+
+#div2 img {
+    border-radius: 23px;
+    margin-bottom: 15px;
+}
+
+#artcl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#artcl p {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+#artcl p span {
+    font-weight: 400;
+    color: #666;
+    margin: 10px 0;
+}
+
+#div2>div {
+    width: 100%;
+}
+
+#div2>div>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#doubleartcl {
+    display: flex;
+}
+
+#doubleartcl>div {
+    margin: 10px;
+}
+
+#div2 button {
+    position: absolute;
+    bottom: -19px;
+}
+
+#div3 {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #1f2122;
+    border-radius: 23px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#div3 h2 {
+    color: var(--pink);
+    text-transform: capitalize;
+    font-size: 34px;
+    align-self: flex-start;
+}
+
+#div3 button {
+    position: absolute;
+    bottom: -19px;
+}
+
+#div3 div {
+    width: 100%;
+}
+
+#div3 ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#div3 ul li {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.btn2 {
+    border: 1px solid #666;
+    color: #666;
+    background: #1f2122;
+    border-radius: 23px;
+    padding: 12px 30px;
+    font-size: 14px;
+}
+
+.btn3 {
+    border: 1px solid var(--pink);
+    color: var(--pink);
+    background: #1f2122;
+    border-radius: 23px;
+    padding: 12px 30px;
+    font-size: 14px;
+}
+
+.btn3:hover {
+    border: none;
+    background: #fff;
+    color: var(--pink);
+}
+
+.pnkbtn {
+    font-size: 14px;
+    background: var(--pink);
+    border-radius: 25px;
+    border: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 12px 30px;
+    font-weight: 600;
+}
+
+.pnkbtn:hover {
+    color: var(--pink);
+    background: #fff;
+}
+
+footer{
+        height: 30vh;
+        background-color:#1f2122 ;
+        text-align: center ;
+        margin-top: 120px;
+    }
